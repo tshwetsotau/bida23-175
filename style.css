@@ -1,0 +1,267 @@
+
+  
+  body{
+    background-image: linear-gradient( rgba(22, 1, 1, 0.9),rgba(27, 25, 25, 0.9)),url('images/Background\ img.webp');
+    background-position:center;
+    background-size: auto;
+    background-repeat:repeat;
+    height: 130vh;
+  }
+  .logo{
+    padding-right: 0px;
+    margin: 10px;
+  }
+  /* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #bf0a0a;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 14%;
+  border-radius: 15%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.search{
+  margin-right: 35px;
+  align-content: center;
+  
+}ul {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 5%;
+  padding: 0;
+  overflow:visible;
+  background-color: #3c3c39;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3a0404;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-size-adjust: 30px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #be0e0e;
+}
+
+
+
+div.gallery {
+  margin: 10px;
+  float: left;
+  width: 220px;
+  height: 200px;
+  box-shadow: 5px 5px 5px 5px #fa0808;
+}
+
+div.gallery:hover {
+  border: 5px solid #f40c0c;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  color: #eae0e0;
+  text-decoration: solid;
+}
+div.gallery2 {
+  padding-block: 30px;
+  margin: 30px;
+  float: left;
+  width: 320px;
+  height: 300px;
+}
+
+
+div.gallery2:hover {
+  border: 20px solid #ee1717;
+
+}
+
+div.gallery2 img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc2 {
+  padding: 20px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  color: #eae0e0;
+  text-decoration: solid;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+footer{
+  background-color: #111;
+}
+.footerContainer{
+  width: 100;
+  padding: 30px 30px 20px ;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10%;
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+  background-color: #df0d0de0;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 30px 0;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white
+}
+  .footerNav ul li{
+      width:100%;
+      text-align: center;
+      margin: 10px;
+  }
+  .socialIcons a{
+      padding: 8px;
+      margin: 4px;
+  }
